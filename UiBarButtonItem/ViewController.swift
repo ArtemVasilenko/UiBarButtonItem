@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         segmentController.addTarget(self, action: #selector (segmentControllerTupped(param:)), for: .valueChanged)
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: segmentController)
+        let a = UISwitch()
     }
     
     
